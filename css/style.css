@@ -1,9 +1,47 @@
 @charset "utf-8";
-body,ul{
-    margin: 0;
-    padding: 0;
-}
+/*框架式样式-----------------开始*/
+body {  font: 14px/22px Microsoft YaHei;color: #333; }
+body, div, ul, li, h1, h2{ margin: 0;padding: 0;}
+a { cursor:pointer;}
+/*框架式样式-----------------结束*/
+
 .header {
     height: 60px;
     background: #000;
 }
+.logo {
+    display: inline-block;
+    padding: 8px 20px;
+}
+.nav {
+    float: right;
+}
+.nav ul li {
+    float: left;
+    margin: 20px;
+}
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav li a:hover {
+    color: #B0AE9F;
+}
+.wrapper {
+    background: #DEDEDE;
+
+}
+.container {
+    margin-top: 20px;
+}
+.container .c-block {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-top: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+    border-right: 3px solid #9F9F9F;
+    border-bottom: 3px solid #9F9F9F;
+    background: #fff;
+}
+
