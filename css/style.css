@@ -1,8 +1,11 @@
 @charset "utf-8";
 /*框架式样式-----------------开始*/
 body {  font: 14px/22px Microsoft YaHei;color: #333; }
-body, div, ul, li, h1, h2{ margin: 0;padding: 0;}
-a { cursor:pointer;}
+body, div, ul, li, dl, dt, dd, h1, h2{ margin: 0;padding: 0;}
+a {  text-decoration: none;cursor:pointer;}
+h4 { font-weight: normal;}
+table { border-collapse: collapse;border-spacing: 0}
+
 /*框架式样式-----------------结束*/
 
 .header {
@@ -11,7 +14,7 @@ a { cursor:pointer;}
 }
 .logo {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 8px 50px;
 }
 .nav {
     float: right;
@@ -21,7 +24,6 @@ a { cursor:pointer;}
     margin: 20px;
 }
 .nav li a {
-    text-decoration: none;
     color: #fff;
 }
 .nav li a:hover {
@@ -43,5 +45,68 @@ a { cursor:pointer;}
     border-right: 3px solid #9F9F9F;
     border-bottom: 3px solid #9F9F9F;
     background: #fff;
+}
+.container .c-block p {
+     text-indent: 2em;
+}
+.container .c-block p a {
+     text-decoration: underline;
+}
+.container .art02 ul {
+    list-style: none;
+    margin-left: 20px;
+}
+.container .art02 ul li a {
+    color: #333;
+}
+.container .art03 dl {
+    width: 122px;
+    height: 125px;
+    margin: 20px;
+    border: 1px solid #CDCDCD;
+}
+.container .art03 dl img {
+    width: 100px;
+    height: 78px;
+    margin: 10px;
+}
+.container .art03 dt {
+    text-align: center;
+}
+.c-table tr:nth-child(1) {
+    color: #fff;
+    background: #000;
+}
+.c-table tr:last-child {
+    font-weight: bold;
+    background: #ccc;
+}
+.c-table tr:last-child td:nth-child(1) {
+    border-right-color: #ccc;
+}
+.container .art05 .u-table {
+    margin: 2% 30%;
+    line-height: 30px;
+}
+.container .art05 .u-table th {
+    font-weight: normal;
+    text-align: right;
+}
+.btn {
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #3355D0;
+}
+.footer {
+    height: 70px;
+    background: #000;
+}
+.footer p {
+    color: #fff;
+    text-align: center;
+    line-height:50px;
 }
 
