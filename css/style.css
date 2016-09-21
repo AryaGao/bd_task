@@ -5,6 +5,7 @@ body, div, ul, li, dl, dt, dd, h1, h2{ margin: 0;padding: 0;}
 a {  text-decoration: none;cursor:pointer;}
 h4 { font-weight: normal;}
 table { border-collapse: collapse;border-spacing: 0}
+.grey { color: #999;}
 
 /*框架式样式-----------------结束*/
 
