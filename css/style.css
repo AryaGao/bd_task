@@ -1,13 +1,16 @@
 @charset "utf-8";
 /*框架式样式-----------------开始*/
-body {  font: 14px/22px Microsoft YaHei;color: #333; }
+body {  font: 14px/22px Microsoft YaHei;color: #333;}
 body, div, ul, li, dl, dt, dd, h1, h2{ margin: 0;padding: 0;}
 a {  text-decoration: none;cursor:pointer;}
 h4 { font-weight: normal;}
 table { border-collapse: collapse;border-spacing: 0}
 .grey { color: #999;}
+ul {list-style: none;}
 
 /*框架式样式-----------------结束*/
+
+/*task02样式---------开始*/
 
 .header {
     height: 60px;
@@ -106,8 +109,59 @@ table { border-collapse: collapse;border-spacing: 0}
     background: #000;
 }
 .footer p {
-    color: #fff;
-    text-align: center;
     line-height:50px;
+    text-align: center;
+    color: #fff;
+}
+/*task02样式---------结束*/
+
+/*task03样式---------开始*/
+.container3 {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #999;
+    background: #eee;
+    overflow: auto;
+
+}
+.container3 .teamName {
+    float: left;
+    width: 160px;
+    padding: 20px;
+    border: 1px solid #999;
+    background: #fff;
+
+}
+.container3 .teamName img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+
+}
+.container3 .teamName span {
+    margin-left: 10px;
+}
+.container3 .teaminfo {
+    position: absolute;
+    left: 260px;
+    right: 180px;
+    padding: 20px;
+    border: 1px solid #999;
+    background: #fff;
+
+}
+.container3 .teamMeb {
+    float: right;
+    width: 80px;
+    padding: 0 20px;
+    border: 1px solid #999;
+    background: #fff;
+}
+.container3 .teamMeb li {
+    width: 80px;
+    margin: 20px 0;
+    border: 1px solid #999;
 }
 
+/*task03样式---------结束*/
