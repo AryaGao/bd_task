@@ -7,6 +7,15 @@ h4 { font-weight: normal;}
 table { border-collapse: collapse;border-spacing: 0}
 .grey { color: #999;}
 ul {list-style: none;}
+.clearfix {
+    display: block;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+}
 
 /*框架式样式-----------------结束*/
 
@@ -37,17 +46,10 @@ ul {list-style: none;}
     background: #DEDEDE;
 
 }
-.container {
-    margin-top: 20px;
-}
 .container .c-block {
-    width: 95%;
-    margin: 20px auto;
+    margin: 30px;
     padding: 20px;
-    border-top: 1px solid #CDCDCD;
-    border-left: 1px solid #CDCDCD;
-    border-right: 3px solid #9F9F9F;
-    border-bottom: 3px solid #9F9F9F;
+    box-shadow: 1px 1px 2px 1px #848484;
     background: #fff;
 }
 .container .c-block p {
@@ -88,8 +90,11 @@ ul {list-style: none;}
 .c-table tr:last-child td:nth-child(1) {
     border-right-color: #ccc;
 }
+.container .art05 h2 {
+    padding: 10px;
+    border-left: 3px solid #BBBBBB;
+}
 .container .art05 .u-table {
-    margin: 2% 30%;
     line-height: 30px;
 }
 .container .art05 .u-table th {
@@ -192,3 +197,14 @@ ul {list-style: none;}
     background: #fc0;
 }
 /*task04样式---------结束*/
+
+/*task05样式---------开始*/
+.container .c5-left {
+    margin: 0 380px 0 0;
+}
+.container .c5-right {
+    float: right;
+    width: 410px;
+    margin-top: -30px;
+}
+/*task05样式---------结束*/
