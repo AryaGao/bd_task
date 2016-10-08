@@ -214,7 +214,6 @@ ul {list-style: none;}
     width: 980px;
     height: 1386px;
     margin: 0 auto;
-    border: 1px solid #f00;
 }
 .insidePage6 {
     width: 892px;
@@ -243,7 +242,6 @@ ul {list-style: none;}
     position: relative;
     width: 641px;
     height: 301px;
-
 }
 .mainT .mainT-l .l-shadow {
     position: absolute;
@@ -310,6 +308,7 @@ ul {list-style: none;}
 }
 .mainC {
     width: 671px;
+    margin-bottom: 50px;
     overflow: auto;
 }
 .mainC h3 {
@@ -323,8 +322,6 @@ ul {list-style: none;}
     font-size: 12px;
     line-height: 16px;
     color: #767777;
-
-
 }
 .mainC .what h3{
     font-family: "Microsoft YaHei";
@@ -365,5 +362,186 @@ ul {list-style: none;}
     font-size: 16px;
     color: #cc7680;
 }
+.b-left {
+    float: left;
+    width: 415px;
+    margin-right: 18px;
+}
+.b-left-t .highlight {
+    font-size: 72px;
+    color: #f5e327;
+}
 
+.b-left-t span {
+    margin-left: 20px;
+    font-family: "SimHei";
+    font-size: 42px;
+    line-height: 33px;
+    color: #11456b;
+}
+.b-left-t h1 {
+    margin-bottom: 20px;
+    font-family: "SimHei";
+    font-size: 33px;
+    line-height: 50px;
+    color: #11456b;
+    border-bottom: 2px solid #938e8c;
+}
+.b-left-c {
+    font-family: "Songti";
+    font-size: 12px;
+    line-height: 16px;
+    color: #767777;
+}
+.b-left-c .c-first {
+    float: left;
+    margin: 0px 10px 10px 0;
+    font-family: "Microsoft YaHei";
+    font-size: 70px;
+    line-height: 70px;
+    color: #f5e327;
+}
+.b-left-c .c-img {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+.b-right-t {
+    position: relative;
+}
+.b-right-t img {
+    width: 458px;
+    height: 275px;
+}
+.b-right-t .t-shadow {
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+    width: 458px;
+    height: 61px;
+    background: #000;
+    opacity: .7;
+}
+.b-right-t .t-line {
+    float: left;
+    margin: 10px 20px;
+    width: 3px;
+    height: 44px;
+    background: #72b16a;
+}
+.b-right-t .t-big {
+    float: left;
+    margin: 20px 10px 0 0;
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    color: #fff;
+}
+.b-right-t .t-shadow i {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 140%;
+    color: #72b16a;
+}
+.b-right-b {
+    float: right;
+    width: 459px;
+    height: 318px;
+    margin-top: 20px;
+    background: #eeedd6;
+}
+.right-b-part1 {
+    margin: 30px;
+}
+.right-b-part1 p{
+    font-family: "Songti";
+    font-size: 16px;
+    line-height: 20px;
+    color: #5a5b5b;
+}
+.right-b-part1 p i {
+    font-size: 12px;
+}
+.right-b-part1 .triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #10446b;
+}
+.right-b-part2 {
+    float: left;
+    position: relative;
+    width: 260px;
+    height: 160px;
+    background: #d45d5c;
+}
+.part2-inner {
+    position: absolute;
+    width: 260px;
+    height: 160px;
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -40px;
+}
+.part2-inner span {
+    font-size: 110px;
+    color: #fff;
+}
+.part2-inner-line {
+    display: inline-block;
+    height: 86px;
+    width: 2px;
+    background: #fff;
+}
+.part2-inner i {
+    font-family: "SimHei";
+    font-size: 21px;
+    line-height: 24px;
+    color: #fff;
+}
+.inner-left {
+    float: left;
+}
+.part2-inner p {
+    font-family: SimHei;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+}
+.right-b-part3 {
+
+}
+.right-b-part3 i {
+    font-family: SimHei;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5a5b5b;
+}
+.right-b-part3 span {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: SimHei;
+    font-size: 72px;
+    color: #d45d5c;
+}
+.right-b-part3 .l-mark {
+    float: left;
+ }
+.right-b-part3 .r-mark {
+    float: right;
+}
+.footer6 {
+    height: 48px;
+    margin-top: 40px;
+    border-top: 1px solid #938e8c;
+}
+.footer6 p {
+    float: right;
+    font-size: 12px;
+    line-height: 0;
+    color: #d45d5c;
+}
 /*task06样式---------结束*/
