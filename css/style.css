@@ -1,9 +1,9 @@
 @charset "utf-8";
 /*框架式样式-----------------开始*/
 body {  font: 14px/22px Microsoft YaHei;color: #333;}
-body, div, ul, li, dl, dt, dd, h1, h2{ margin: 0;padding: 0;}
+body, div, ul, li, dl, dt, dd, h1, h2,p{ margin: 0;padding: 0;}
 a {  text-decoration: none;cursor:pointer;}
-h4 { font-weight: normal;}
+h1,h2,h3,h4,h5,h6 { font-weight: normal;}
 table { border-collapse: collapse;border-spacing: 0}
 .grey { color: #999;}
 ul {list-style: none;}
@@ -15,6 +15,9 @@ ul {list-style: none;}
     height: 0;
     overflow: hidden;
     content: ".";
+}
+.sprite {
+    background: url(../images/sprite.png);
 }
 
 /*框架式样式-----------------结束*/
@@ -212,7 +215,6 @@ ul {list-style: none;}
 /*task06样式---------开始*/
 .wrapper6 {
     width: 980px;
-    height: 1386px;
     margin: 0 auto;
 }
 .insidePage6 {
@@ -225,10 +227,16 @@ ul {list-style: none;}
     border-bottom: 2px solid #938e8c;
 }
 .header6 .top-logo {
+    float: left;
     position: relative;
     width: 110px;
     height: 61px;
     background: #d45d5c;
+}
+.header6 span {
+    float: right;
+    margin-top: 40px;
+    color: #da746e;
 }
 .header6 .top-logo span {
     position: absolute;
@@ -248,6 +256,7 @@ ul {list-style: none;}
     width: 191px;
     height: 301px;
     left: 0;
+    top: 0;
     background: #244d3a;
     opacity: .5;
 }
@@ -488,6 +497,7 @@ ul {list-style: none;}
 }
 .part2-inner span {
     font-size: 110px;
+    margin-right: 5px;
     color: #fff;
 }
 .part2-inner-line {
@@ -545,3 +555,140 @@ ul {list-style: none;}
     color: #d45d5c;
 }
 /*task06样式---------结束*/
+
+/*task07样式---------开始*/
+.container7 {
+    min-width: 1280px;
+}
+.header7 {
+    width: 1280px;
+    height: 57px;
+    margin: 0 auto;
+}
+.header7 .logo7 {
+    float: left;
+    margin-left: 59px;
+}
+.header7 .logo7 span {
+    float: left;
+    display:block;
+    width: 31px;
+    height: 31px;
+    margin-top: 12px;
+    margin-right: 10px;
+    background: url("../images/logo7.png");
+}
+.header7 .logo7 a {
+    font-size: 21px;
+    line-height: 53px;
+    color: #393a3a;
+}
+.header7-nav {
+    float: right;
+    line-height: 53px;
+
+}
+.header7-nav ul li {
+    float: left;
+}
+.header7-nav ul li a {
+    padding: 18px 25px;
+    text-align: center;
+    color: #787b83;
+}
+.header7-nav ul li.cur a{
+    color: #e7504d;
+    border-bottom: 5px solid #e7504d;
+}
+.header7 .login7 a {
+    float: right;
+    width: 65px;
+    line-height: 53px;
+    color: #e74f4d;
+}
+.header7 .login7 span {
+    float: left;
+    width: 14px;
+    height: 17px;
+    margin: 17px 3px;
+    background: url("../images/login7.png");
+}
+.banner7 {
+     position: relative;
+ }
+.banner7 .banner7-bg {
+    display: block;
+    height: 691px;
+    background: url("../images/banner7-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.banner7-cont {
+    position: absolute;
+    left: 12%;
+    top:230px;
+
+}
+.banner7-cont h1 {
+    width: 458px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: #fff;
+}
+.banner7-cont p {
+    font-size: 21px;
+    color: #fff;
+}
+.banner7-cont a {
+    display: block;
+    width: 330px;
+    height: 65px;
+    margin-top: 70px;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    background: #e74f4d;
+}
+.tk7-block {
+    width: 1150px;
+    height: 250px;
+    margin: 0 auto;
+}
+.tk7-block ul li {
+    position: relative;
+    float: left;
+    width: 155px;
+    padding: 46px 65px;
+    text-align: center;
+}
+.tk7-block ul li a {
+    color: #767777;
+}
+.tk7-block .tk7-ico {
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-left: 57px;
+    margin-bottom: 43px;
+}
+.tk7-block .tk7-ico1 {
+    background-position: 0 0;
+}
+.tk7-block .tk7-ico2 {
+    background-position: -42px 0;
+}
+.tk7-block .tk7-ico3 {
+    background-position: -84px 0;
+}
+.tk7-block .tk7-ico4 {
+    background-position: -126px 0;
+}
+.tk7-block .tk7-line {
+    position: absolute;
+    width: 2px;
+    height: 52px;
+    right: 0;
+    bottom: 35px;
+    background: #c3c4c4;
+}
+/*task07样式---------结束*/
