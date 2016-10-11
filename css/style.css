@@ -16,7 +16,7 @@ ul {list-style: none;}
     overflow: hidden;
     content: ".";
 }
-.sprite {
+.    sprite {
     background: url(../images/sprite.png);
 }
 
@@ -690,5 +690,102 @@ ul {list-style: none;}
     right: 0;
     bottom: 35px;
     background: #c3c4c4;
+}
+.new-world {
+    height: 360px;
+    background: #ededed;
+}
+.new-world-cont {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.new-world-cont i {
+    display: block;
+    width: 91px;
+    height: 92px;
+    margin: 0 auto;
+    background: url("../images/new-world-pic.png");
+}
+.new-world-cont h1 {
+    margin-top: 50px;
+    font-size: 53.59px;
+    line-height: 56.6px;
+    text-align: center;
+    color: #a1a1a1;
+}
+.world-search {
+    height: 340px;
+    background: url("../images/new-search-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.world-search-cont {
+    width: 1050px;
+    margin: 0 auto;
+}
+.world-search-cont h1 {
+    padding-top: 50px;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+}
+.world-line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 10px auto 18px;
+    background: #fff;
+}
+.world-search-cont p {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.world-form {
+    width: 1098px;
+    margin: 53px auto;
+}
+.world-country {
+    float: left;
+    width: 237px;
+    height: 37px;
+    margin-left: 30px;
+    line-height: 37px;
+    background: #fff;
+}
+.world-country span {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #a8aaaa;
+}
+.world-country i {
+    float: right;
+    display: block;
+    width: 19px;
+    height: 18px;
+    margin: 10px;
+    background-position: 0 -42px;
+}
+.world-country .allprovince {
+    background: #e3e2e4;
+    border-left: 1px solid #c2837a;
+    border-right: 1px solid #c2837a;
+    border-bottom: 1px solid #c2837a;
+}
+.allprovince li {
+    height: 26px;
+    cursor: pointer;
+}
+.allprovince span {
+    margin-left: 32px;
+    color: #323333;
+}
+.allprovince b {
+     display: block;
+     width: 12px;
+     height: 8px;
+ }
+.allprovince .world-check {
+    background: #be4e48;
 }
 /*task07样式---------结束*/
