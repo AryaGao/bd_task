@@ -1,7 +1,7 @@
 百度前端技术学院task  
 任务一：零基础HTML编码  
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task01/task01.html   
-任务二：零基础HTML及CSS编码（一） 
+任务二：零基础HTML及CSS编码（一)  
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task02/task02.html  
 任务三：三栏式布局  
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task03/task03.html  
