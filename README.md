@@ -15,3 +15,5 @@ http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/tas
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task07/task07.html  
 任务八：响应式网格（栅格化）布局  
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task08/index.html  
+任务九：使用HTML/CSS实现一个复杂页面                                                                                                         
+http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task09/index.html
