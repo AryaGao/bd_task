@@ -1,0 +1,551 @@
+@charset "utf-8";
+body { font: 14px/22px "Microsoft YaHei";}
+body,html {
+    height: 100%;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, a {padding: 0;margin: 0;}
+i { font-style: normal;}
+a { text-decoration: none;}
+a:focus { outline: none;}
+ul, li { list-style: none;}
+button, input, img { vertical-align: middle;border: 0;outline:none;}
+table { border-collapse: collapse;border-spacing: 0;line-height: 0;overflow: hidden; clear: both;}
+.clear { font-size: 0;height: 0;line-height: 0; overflow: hidden;clear: both;}
+.fl { float: left;_display:inline}
+.fr { float: right;_display:inline}
+.fs-12 { font-size: 12px;}
+.fs-16 { font-size: 16px;}
+.hide { display: none;}
+.clearfix:after { visibility: hidden;display: block; height:0;font-size: 0;content:"";clear: both}
+.sprite { background: url(../images/sprite.png)}
+.ml-60 { margin-left: 60px;}
+.mr-60 { margin-right: 60px;}
+.rlRed { color: #c9161d}
+.wrap { min-width: 1280px;}
+.header {
+    height: 56px;
+    background: #228abf;
+}
+.header-box {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.search {
+    width: 315px;
+    height: 30px;
+    border-radius: 20px;
+    background: #fff;
+}
+.search .search-ico {
+    position: absolute;
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 8px 18px;
+    background-position: 0 0;
+}
+.search input {
+    width: 250px;
+    height: 30px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.login { padding: 3px;}
+.login .login-ico {
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 5px 3px 5px 10px;
+    background-position: -18px 0;
+}
+.login a { color: #fff;}
+.left-main {
+    float: left;
+    width: 260px;
+    margin-bottom: -2000px;
+    padding-bottom: 2000px;
+    background: #2a2e3d;
+}
+.left-main .user-info {
+    padding: 18px 45px;
+}
+.user-info .photo-wrap {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #eeeded;
+    border-radius: 50%;
+}
+.user-info .photo-wrap .photo {
+    margin: 7px;
+    width: 46px;
+    height: 46px;
+    background: #b9babe;
+    border-radius: 50%;
+}
+.user-info .photo-wrap .photo img {
+    width: 46px;
+    height: 46px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;;
+}
+.user-info .basic-info .name {
+    margin-left: 75px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+}
+.user-info .other-info {
+    margin-top: 20px;
+}
+.other-info ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.other-info .collect {
+    border-right: 2px solid #323647;
+}
+.other-info ul li a {
+    color: #6e8095;
+}
+.nav {
+    padding: 10px 0;
+}
+.nav .first-nav {
+    width: 100%;
+}
+.nav .first-nav a {
+    color: #6e8095;
+}
+.nav .first-nav li {
+    line-height: 40px;
+}
+.nav .sec-nav {
+    text-indent: .5cm;
+}
+.nav .third-nav {
+    text-indent: .95cm;
+}
+.nav .first-nav i {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.nav .first-nav span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.first-nav .nav-ico1 { background-position: -18px -18px;}
+.first-nav .nav-close { background-position: -36px 0;}
+.first-nav .nav-open { background-position: -54px -18px;}
+.first-nav .nav-file { background-position: -18px -36px;}
+.first-nav .nav-doc { background-position: -18px -54px;}
+.first-nav .nav-ico2 { background-position: -18px -72px;}
+.first-nav .nav-ico3 { background-position: -54px -54px;}
+.first-nav .nav-ico4 { background-position: -54px -36px;}
+.first-nav .first { padding: 0 45px;}
+.first-nav .first.cur, .nav .first-nav .first:hover { background: #383d4e;  }
+.first-nav .first.cur .first-child, .nav .first-nav .first .first-child:hover { color: #fff;  }
+.first-nav .sec-nav .second.cur .sec-child, .first-nav .sec-nav .second .sec-child:hover { color: #fff;  }
+.first-nav .third-nav .third.cur .third-child, .first-nav .third-nav .third .third-child:hover { color: #fff;  }
+.first-nav .first.cur .nav-ico1, .first-nav .first .first-child:hover .nav-ico1 { background-position: 0 -18px;}
+.first-nav .first.cur .nav-ico2, .first-nav .first .first-child:hover .nav-ico2 { background-position: 0 -72px;}
+.first-nav .first.cur .nav-ico3, .first-nav .first .first-child:hover .nav-ico3 { background-position: -36px -54px;}
+.first-nav .first.cur .nav-ico4, .first-nav .first .first-child:hover .nav-ico4{ background-position: -36px -36px;}
+.first-nav .second.cur .nav-close, .first-nav .second .sec-child:hover .nav-close { background-position: -36px -18px;}
+.first-nav .second.cur .nav-open, .first-nav .second .sec-child:hover .nav-open { background-position: -54px 0;}
+.first-nav .second.cur .nav-file, .first-nav .second .sec-child:hover .nav-file { background-position: 0 -36px;}
+.first-nav .third.cur .nav-doc, .first-nav .third .third-child:hover .nav-doc { background-position: 0 -54px;}
+.right-main {
+    margin-left: 260px;
+    background: #eeeeed;
+    overflow: hidden;
+}
+.breadcrumbs {
+    height: 32px;
+    padding: 0 30px;
+    line-height: 32px;
+    background: #fff;
+}
+.breadcrumbs a {
+    font-size: 12px;
+    color: #aaa;
+}
+.breadcrumbs a:last-child, .breadcrumbs a:hover {
+    color: #6898c2;
+}
+.breadcrumbs span {
+    margin: 0 8px;
+    font-size: 12px;
+    color: #aaa;
+}
+.main {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .query {
+    height: 85px;
+    margin-top: 20px;
+    border: 1px solid #dddee0;
+    background: #fff;
+}
+.main .query .term1 {
+    margin: 15px 0 0 30px;
+}
+.main .query label {
+    margin-right: 16px;
+    font-size: 12px;
+    color: #aaa;
+}
+.main .query .pub-sel-1 {
+    width: 70px;
+    height: 25px;
+    border: 1px solid #cbcbcb;
+    background: url("../images/query-down.png") no-repeat right;
+    appearance:none;                    /*清除select原生样式，在firefox与google里边框是不一样的，所以需要要复写一下（下现行）*/
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+.main .query .term2 {
+    margin: 13px 0 0 40px;
+    line-height: 30px;
+}
+.main .query .pub-sel-2 {
+    width: 120px;
+    height: 25px;
+    border: 1px solid #cbcbcb;
+    background: url("../images/query-down2.png") no-repeat scroll 100px 8px;
+    appearance:none;                    /*清除select原生样式，在firefox与google里边框是不一样的，所以需要要复写一下（下现行）*/
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+.main .query .change {
+    width: 30px;
+    height: 40px;
+    margin-top: 25px;
+    background: url("../images/change.png") no-repeat;
+}
+.main .query .change a {
+    margin: 13px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #fff;
+}
+.main .query .term3 {
+    margin: 13px 0 0 40px;
+    line-height: 30px;
+}
+.main .query .term4 {
+    margin: 25px 0 0 40px;
+    line-height: 30px;
+}
+.query .term4 .query-btn {
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    border-radius: 3px;
+    background: #388ac1;
+    cursor: pointer;
+}
+.main .old-query {
+    height: 68px;
+    margin-top: 20px;
+}
+.main .old-query .toleft {
+    width: 3.3%;
+    height: 64px;
+    margin-right: 0.5%;
+    border-top: 1px solid #dddee0;
+    border-left: 1px solid #dddee0;
+    background: #fff;
+}
+.main .old-query .toleft span {
+    margin-left: 5px;
+    line-height: 64px;
+    font-size: 24px;
+    color: #c5c4c4;
+}
+.old-day-box .old-day li{
+    float: left;
+    width: 12.3%;
+    margin-right: 0.5%;
+    text-align: center;
+    border-top: 1px solid #dddee0;
+    border-left: 1px solid #dddee0;
+    background: #fff;
+}
+.old-day-box .old-day span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-position: -72px 0;
+}
+.old-day-box .old-day a {
+    display: inline-block;
+    padding: 8px;
+    vertical-align: middle;
+}
+.old-day-box .old-day p {
+    font-size: 12px;
+    color: #323333;
+}
+.old-day-box .old-day b {
+    font-size: 21px;
+    color: #ec6500;
+}
+.old-query .old-cal {
+    width: 14.6%;
+    border-top: 1px solid #dddee0;
+    border-left: 1px solid #dddee0;
+    background: #fff;
+}
+.old-query .old-cal a {
+    display: inline-block;
+    padding: 21px;
+    vertical-align: middle;
+    color: #535353;
+}
+.old-query .old-cal span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: -10px 2px;
+    background: url("../images/old-col.png");
+}
+.old-day-box .old-day li.cur, .old-day-box .old-day li:hover {
+    border-top: 4px solid #4388c8;
+}
+.month {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.month .month-count li{
+    float: left;
+    width: 22.5%;
+    height: 72px;
+    margin-right: 3%;
+    border:1px solid #dddee0;
+    background: #fff;
+}
+.m-line {
+    display: inline-block;
+    width: 4px;
+    height: 72px;
+    background: #43b29d;
+}
+.month .month-count li .m-num {
+    font-size: 12px;
+    color: #323333;
+    margin: 15px 0 0 15px;
+}
+.month .month-count li .m-font {
+    font-size: 10px;
+    color: #aaa;
+    margin: 5px 0 0 15px;
+}
+.month .month-count .m-pic {
+    width: 60px;
+    height: 48px;
+    margin: 13px;
+    background: #44b29e;
+}
+.proj {
+    margin-top: 10px;
+
+}
+.projL {
+    float: left;
+    width: 59.1%;
+    border: 1px solid #cbcbcb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+.projL h5 {
+    font-weight: normal;
+    color: #aaa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #cbcbcb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #f4f5f6;
+}
+.tab {
+    margin: 10px 20px;
+}
+.tabHd {
+    position: relative;
+    display: inline-block;
+    margin-left: -2px;
+    z-index: 1;
+
+}
+.tabHd li {
+    float: left;
+    padding: 7px 22px;
+    margin: 0 2px;
+    text-align: center;
+    background: #ededf0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tabHd li a {
+    color: #535353;
+}
+.tabHd li.active {
+    background: #fff;
+    border-left: 1px solid #cbcbcb;
+    border-top: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+
+}
+.tabCont {
+    position: relative;
+    top: -7px;
+    border: 1px solid #cbcbcb;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.table1 {
+    width: 88%;
+    margin: 20px auto;
+    clear: inherit;
+    line-height: 30px;
+    text-align: center;
+    color: #535353;
+    overflow: inherit;
+    border: 1px solid #cbcbcb;
+}
+.table1 td {
+    padding: 0 20px;
+}
+.projR {
+    width: 39.3%;
+    margin-left: 1.1%;
+
+}
+.projInfo {
+    margin: 10px 30px;
+    font-size: 12px;
+}
+.projInfo h5 {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.projInfoPrice {
+    display: inline-block;
+    width: 32.1%;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+.projInfoPerson {
+    display: inline-block;
+    margin-left: -4px;
+    width: 66.9%;
+    border-left: 1px solid #cbcbcb;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+.projInfoPrice span, .projInfoPerson span {
+    color: #c3c2c2;
+}
+.projInfoFoot {
+    padding: 10px 0;
+    margin-bottom: 28px;
+    border-top: 1px solid #cbcbcb;
+}
+.projInfoFoot button {
+    float: right;
+    padding: 5px 10px;
+    background: #388ac1;
+    color: #fff;
+}
+.rl {
+    float: right;
+    height: 100% !important;
+    margin-top: 10px !important;
+    margin-bottom: 50px;
+    width:39.3%;
+    margin-right: 1.1%;
+}
+.rl .pub-sel-1.rl-sel.rl-sel-large {
+    width: 100px;
+}
+.rl .pub-sel-1.rl-sel {
+    outline: none;
+    margin-right: 10px;
+}
+.rl .pub-sel-1.rl-sel:after {
+    content: '|';
+    color: #f00;
+
+}
+.rlTitle {
+    margin: 20px 40px 0;
+}
+.backToday {
+    background: #fff;
+    border: 1px solid #cbcbcb;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.ppb {
+    float: right;
+    width:59.1%;
+    margin-top : 10px;
+    margin-bottom: 50px;
+}
+.table1.table2 {
+    border-collapse: collapse;
+    border-top: 1px solid #a9cfec;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+
+}
+.table2 th {
+    font-weight: normal;
+}
+.table2 th a {
+    color: #323333;
+}
+.table2 td a:hover {
+    color: #c9161d;
+}
+.table2 td {
+    padding: 0;
+}
+.table2 td a {
+    color: #323333;
+}
+.table2 td a span {
+    display: block;
+    margin-top: -15px;
+}
+.table1 .progressBar {
+    display: inline-block;
+    width: 168px;
+    height: 4px;
+    margin-left: 10px;
+    vertical-align: middle;
+    background: #dddcdd;
+}
+.progressBar .presentBar {
+    width: 80%;
+    height: 100%;
+    background: #ed6e52;
+}
+
+
