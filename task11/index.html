@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>移动Web页面布局实践</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.css">
+    <link rel="stylesheet" href="style.css">
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.js' charset='utf-8'></script>
+    <!--如果你用到了拓展包中的组件，还需要引用下面两个-->
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.css">
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.js' charset='utf-8'></script>
+
+</head>
+<body>
+<div class="page-group">
+    <div class="page page-current">
+        <header class="bar bar-nav new-bar">
+            <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'>
+                <span class="icon icon-left"></span>
+                返回
+            </a>
+            <h1 class="title">这是标题</h1>
+        </header>
+        <div class="content my-content">
+            <div class="buttons-tab">
+                <a href="#tab1" class="tab-link active button">导航</a>
+                <a href="#tab2" class="tab-link button">导航</a>
+                <a href="#tab3" class="tab-link button">导航</a>
+                <a href="#tab4" class="tab-link button">导航</a>
+                <a href="#tab5" class="tab-link button">导航</a>
+            </div>
+            <div class="content-block">
+                <div class="tabs">
+                    <div id="tab1" class="tab active">
+                        <div class="content-block">
+                            <div class="swiper-container" data-space-between='10'>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/2.jpg" width="100%" height="100%"></div>
+                                 <!--   <div class="swiper-slide"><img src="images/1.jpg" width="100%" height="100%"></div>
+                                    <div class="swiper-slide"><img src="images/3.jpg" width="100%" height="100%"></div>-->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tag">
+                                <ul>
+                                    <li><a href="javascript:void(0)"><i class="icon icon-cart"></i><span>标签</span></a></li>
+                                    <li><a href="javascript:void(0)"><i class="icon icon-cart"></i><span>标签</span></a></li>
+                                    <li><a href="javascript:void(0)"><i class="icon icon-cart"></i><span>标签</span></a></li>
+                                    <li><a href="javascript:void(0)"><i class="icon icon-cart"></i><span>标签</span></a></li>
+                                    <li><a href="javascript:void(0)"><i class="icon icon-cart"></i><span>标签</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-padded grid-demo">
+                                <div class="row row-block">
+                                    <div class="col-33 col-border">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                        <h3>分栏一</h3>
+                                        <h4>分栏小标题</h4>
+                                    </div>
+                                    <div class="col-33 col-border">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                        <h3>分栏一</h3>
+                                        <h4>分栏小标题</h4></div>
+                                    <div class="col-33">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                        <h3>分栏一</h3>
+                                        <h4>分栏小标题</h4>
+                                    </div>
+                                </div>
+                                <div class="row row-text">
+                                    <h5>模块一</h5>
+                                    <div class="col-33">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                </div>
+                                <div class="row row-text" style="margin-top: 0;">
+                                    <div class="col-33">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                </div>
+                                <div class="row row-text">
+                                    <h5>模块二</h5>
+                                    <div class="col-33">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                </div>
+                                <div class="row row-text" style="margin-top: 0;">
+                                    <div class="col-33">
+                                        <img src="images/2.jpg" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                    <div class="col-33">
+                                        <p>这是文案</p>
+                                        <p>这是文案</p>
+                                    </div>
+                                </div>
+                                <div class="art-text">
+                                    <div class="row no-gutter">
+                                        <div class="col-20">
+                                            <img src="images/2.jpg" width="100%" height="100%">
+                                        </div>
+                                        <div class="col-80">
+                                            <div class="card">
+                                                <div class="card-content">
+                                                    <div class="card-content-inner">
+                                                        <P class="p1">这是文章标题字号22号字号这是文章标题字号22号字号</P>
+                                                        <p class="p2">文章来源6分钟前</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutter">
+                                        <div class="col-20">
+                                            <img src="images/2.jpg" width="100%" height="100%">
+                                        </div>
+                                        <div class="col-80">
+                                            <div class="card">
+                                                <div class="card-content">
+                                                    <P class="p1">这是文章标题字号22号字号这是文章标题字号22号字号</P>
+                                                    <p class="p2">文章来源6分钟前</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-text row-img">
+                                    <h5>这个也是文章标题字号也是22</h5>
+                                        <div class="col-33">
+                                            <img src="images/2.jpg" width="100%" height="100%">
+                                        </div>
+                                        <div class="col-33">
+                                            <img src="images/2.jpg" width="100%" height="100%">
+                                        </div>
+                                        <div class="col-33">
+                                            <img src="images/2.jpg" width="100%" height="100%">
+                                        </div>
+                                    <p class="p2">文章来源7分钟前</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab"></div>
+                    <div id="tab3" class="tab"></div>
+                    <div id="tab4" class="tab"></div>
+                    <div id="tab5" class="tab"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <nav class="bar bar-tab"></nav>
+        </footer>
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".swiper-container").swiper(config);
+    });
+</script>
+
+</body>
+</html>
