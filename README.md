@@ -19,3 +19,5 @@ http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/tas
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task09/index.html                                             
 任务十：Flexbox 布局练习   
 http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task10/index.html
+任务十一：移动端Web页面布局
+http://htmlpreview.github.io/?https://github.com/AryaGao/bd_task/blob/master/task11/index.html
