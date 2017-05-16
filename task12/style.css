@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.wrap {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+table th {
+    color: #fff;
+    background: #000;
+}
+table tr:nth-child(2n) {
+    background: #ccc;
+}
+table tr:nth-child(1),
+table tr:nth-child(2),
+table tr:nth-child(3){
+    color: #f00;
+}
+.text {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.text input {
+    width: 100px;
+}
+.text input:focus {
+    width: 200px;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -ms-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s;
+}
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    background: #222;
+}
+.play-nav {
+    position: absolute;
+    top: 360px;
+    right: 0;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    background: #fff;
+    opacity: .89;
+    z-index: 3;
+}
+.play-nav:hover {
+    background: #ccc;
+}
+.play-nav:nth-child(1) {
+    margin-right: 92px;
+}
+.play-nav:nth-child(2) {
+    margin-right: 46px;
+}
+.show-content {
+    width: 300%;
+    height: 100%;
+    animation: anima 11s ease-out infinite alternate;
+    -webkit-animation: anima 11s ease-out infinite alternate;
+}
+.show-content > div {
+    display: inline-block;
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+.show-content #content1 {
+    background: #f5e327;
+}
+.show-content #content2 {
+    background: #f5e79e;
+}
+.show-content #content3 {
+    background: #7fcbf0;
+}
+.show-content:hover,
+.play-nav:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+.play-nav:nth-child(1):hover ~ .show-content {
+    animation: ani1 .5s ease-out forwards;
+}
+.play-nav:nth-child(2):hover ~ .show-content {
+    animation: ani2 .5s ease-out forwards;
+}
+.play-nav:nth-child(3):hover ~ .show-content {
+    animation: ani3 .5s ease-out forwards;
+}
+@keyframes anima {
+    0%,27% {transform: translateX(0);}
+    36%,63% {transform: translateX(-600px);}
+    72%,100% {transform: translateX(-1200px);}
+}
+@-webkit-keyframes anima {
+    0%,27% {transform: translateX(0);}
+    36%,63% {transform: translateX(-600px);}
+    72%,100% {transform: translateX(-1200px);}
+}
+@keyframes ani1 {
+    0%  {transform: translateX(-1200px);}
+    100% {transform: translateX(0);}
+}
+@keyframes ani2 {
+    100% {transform: translateX(-600px);}
+}
+@keyframes ani3 {
+    100% {transform: translateX(-1200px);}
+}
